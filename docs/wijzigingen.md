@@ -75,3 +75,19 @@ Alle goedgekeurde voorstellen en hun implementatie status.
 - [x] EmailJS configureren (service, template, public key)
 - [x] Commit naar GitHub
 - [x] Deploy naar Vercel
+
+---
+
+### 2026-01-05 - Winkelwagen functionaliteit (Voorstel A)
+**Oorspronkelijk idee:** docs/ideeen.md#2026-01-05---winkelwagen-functionaliteit
+**Status:** In ontwikkeling
+
+**Wijzigingen:**
+- [ ] src/context/CartContext.tsx aanmaken
+- [ ] src/pages/Cart.tsx aanmaken
+- [ ] src/pages/Products.tsx updaten met "Voeg toe" knop
+- [ ] src/components/Menu.tsx updaten met winkelwagen icoon + badge
+- [ ] src/App.tsx updaten met CartProvider en route
+- [ ] src/App.css updaten met cart styling
+- [ ] Commit naar GitHub
+- [ ] Deploy naar Vercel

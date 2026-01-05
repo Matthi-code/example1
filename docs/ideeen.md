@@ -171,3 +171,44 @@ Welk voorstel heeft je voorkeur?
 - [ ] Aanpassen (geef feedback)
 
 **Besluit:** Voorstel A goedgekeurd op 2026-01-05 → Verplaatst naar wijzigingen.md
+
+---
+
+### 2026-01-05 - Winkelwagen functionaliteit
+**Status:** Goedgekeurd (Voorstel A)
+
+**Beschrijving:**
+Een winkelwagen toevoegen zodat gebruikers producten kunnen verzamelen en bekijken.
+
+**Analyse:**
+- State management nodig voor winkelwagen (React Context of localStorage)
+- "Toevoegen aan winkelwagen" knop op producten
+- Winkelwagen icoon in menu met aantal items
+- Winkelwagen pagina met overzicht en totaalprijs
+- Mogelijkheid om items te verwijderen/aantal aan te passen
+
+**Voorstel A (Aanbevolen):**
+Volledige winkelwagen met React Context:
+- CartContext voor globale state
+- "Voeg toe" knop op elk product
+- Winkelwagen icoon in header met badge (aantal items)
+- Aparte /winkelwagen pagina
+- Aantal aanpassen (+/-) en verwijderen
+- Totaalprijs berekening
+- localStorage persistentie (wagen blijft na refresh)
+
+**Voorstel B (Alternatief):**
+Simpele winkelwagen:
+- Alleen localStorage, geen Context
+- Basis lijst van toegevoegde producten
+- Geen aantal aanpassen, alleen toevoegen/verwijderen
+- Sneller te implementeren, minder features
+
+**Vraag:**
+Welk voorstel heeft je voorkeur?
+- [x] Voorstel A - Volledige winkelwagen (Aanbevolen)
+- [ ] Voorstel B - Simpele winkelwagen
+- [ ] Afgewezen
+- [ ] Aanpassen (geef feedback)
+
+**Besluit:** Voorstel A goedgekeurd op 2026-01-05 → Verplaatst naar wijzigingen.md

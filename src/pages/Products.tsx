@@ -1,4 +1,6 @@
-const products = [
+import { useCart, type Product } from '../context/CartContext'
+
+const products: Product[] = [
   { id: 1, name: 'Knuffel Hond Oranje', price: '24,99', image: '/images/DogOrange11-1-scaled.png' },
   { id: 2, name: 'Knuffel Hond Roze', price: '24,99', image: '/images/DogPInk05-scaled.png' },
   { id: 3, name: 'Knuffel Hond Blauw', price: '24,99', image: '/images/DogBlue04-scaled.png' },
@@ -11,6 +13,8 @@ const products = [
 ]
 
 function Products() {
+  const { addToCart } = useCart()
+
   return (
     <div className="container">
       <h1>Producten</h1>
@@ -26,6 +30,12 @@ function Products() {
             />
             <h3>{product.name}</h3>
             <p className="price">€{product.price}</p>
+            <button
+              onClick={() => addToCart(product)}
+              className="add-to-cart-btn"
+            >
+              Voeg toe
+            </button>
           </div>
         ))}
       </div>
