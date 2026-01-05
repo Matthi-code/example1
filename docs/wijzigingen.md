@@ -72,6 +72,8 @@ Alle goedgekeurde voorstellen en hun implementatie status.
 - [x] @emailjs/browser installeren
 - [x] src/pages/Contact.tsx updaten met formulier en validatie
 - [x] src/App.css updaten met formulier styling
-- [ ] EmailJS configureren (service, template, public key) - ACTIE NODIG
-- [ ] Commit naar GitHub
-- [ ] Deploy naar Vercel
+- [ ] EmailJS configureren (service, template, public key) - **ACTIE NODIG**
+- [x] Commit naar GitHub
+- [x] Deploy naar Vercel
+
+**Let op:** Email verzending werkt pas na EmailJS configuratie!

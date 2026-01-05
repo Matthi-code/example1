@@ -2,9 +2,9 @@ import { useState, type FormEvent } from 'react'
 import emailjs from '@emailjs/browser'
 
 // EmailJS configuratie - vul je eigen keys in
-const EMAILJS_SERVICE_ID = 'YOUR_SERVICE_ID'
-const EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID'
-const EMAILJS_PUBLIC_KEY = 'YOUR_PUBLIC_KEY'
+const EMAILJS_SERVICE_ID = 'service_c097jys'
+const EMAILJS_TEMPLATE_ID = 'template_v7c7xfd'
+const EMAILJS_PUBLIC_KEY = 'EKo0Gc0lH1IiB1HsH'
 
 interface FormData {
   name: string
