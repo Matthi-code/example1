@@ -66,14 +66,12 @@ Alle goedgekeurde voorstellen en hun implementatie status.
 
 ### 2026-01-05 - Contactformulier met EmailJS (Voorstel A)
 **Oorspronkelijk idee:** docs/ideeen.md#2026-01-05---contactformulier-met-email-functie
-**Status:** In ontwikkeling
+**Status:** Voltooid
 
 **Wijzigingen:**
 - [x] @emailjs/browser installeren
 - [x] src/pages/Contact.tsx updaten met formulier en validatie
 - [x] src/App.css updaten met formulier styling
-- [ ] EmailJS configureren (service, template, public key) - **ACTIE NODIG**
+- [x] EmailJS configureren (service, template, public key)
 - [x] Commit naar GitHub
 - [x] Deploy naar Vercel
-
-**Let op:** Email verzending werkt pas na EmailJS configuratie!
