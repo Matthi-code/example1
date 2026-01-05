@@ -92,3 +92,45 @@ Welk voorstel heeft je voorkeur?
 - [ ] Aanpassen (geef feedback)
 
 **Besluit:** Voorstel B goedgekeurd op 2026-01-05 → Verplaatst naar wijzigingen.md
+
+---
+
+### 2026-01-05 - Navigatiemenu met Producten pagina
+**Status:** Goedgekeurd (Voorstel A)
+
+**Beschrijving:**
+Een navigatiemenu aanmaken met links naar Home, Contact en een nieuwe Producten pagina.
+
+**Analyse:**
+- Nieuwe bestanden:
+  - `src/components/Menu.tsx` - Herbruikbaar menu component
+  - `src/pages/Products.tsx` - Nieuwe producten pagina
+- Aan te passen:
+  - `src/App.tsx` - Route toevoegen voor producten
+  - `src/App.css` - Menu styling
+  - `src/pages/Home.tsx` - Losse link verwijderen, menu toevoegen
+  - `src/pages/Contact.tsx` - Losse link verwijderen, menu toevoegen
+
+**Voorstel A (Aanbevolen):**
+Horizontaal menu bovenaan elke pagina:
+- Vaste header met menu op alle pagina's
+- Links: Home | Producten | Contact
+- Intertoys-stijl (rood/geel kleuren)
+- Actieve pagina gemarkeerd
+- Responsive (hamburger menu op mobiel)
+
+**Voorstel B (Alternatief):**
+Simpel menu zonder header:
+- Menu direct in elke pagina component
+- Geen aparte header
+- Basis styling
+- Sneller te implementeren, minder responsive
+
+**Vraag:**
+Welk voorstel heeft je voorkeur?
+- [x] Voorstel A - Horizontaal menu met header (Aanbevolen)
+- [ ] Voorstel B - Simpel menu zonder header
+- [ ] Afgewezen
+- [ ] Aanpassen (geef feedback)
+
+**Besluit:** Voorstel A goedgekeurd op 2026-01-05 → Verplaatst naar wijzigingen.md

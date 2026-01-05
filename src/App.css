@@ -1,12 +1,58 @@
+/* Header & Menu */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #E31937;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.menu-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.menu-link:hover {
+  background: #FFD100;
+  color: #213547;
+}
+
+.menu-link.active {
+  background: white;
+  color: #E31937;
+}
+
+/* Main content */
+main {
+  padding-top: 80px;
+}
+
 .container {
-  min-height: 100vh;
+  min-height: calc(100vh - 80px);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding-top: 10vh;
+  padding-top: 5vh;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
+/* Wave animation */
 .wave-image {
   width: 120px;
   height: 120px;
@@ -20,12 +66,20 @@
   75% { transform: rotate(-10deg); }
 }
 
+/* Typography */
 h1 {
   font-size: 3rem;
   color: #E31937;
+  margin-bottom: 1rem;
+}
+
+.page-intro {
+  font-size: 1.2rem;
+  color: #666;
   margin-bottom: 2rem;
 }
 
+/* Files section */
 .files-section {
   margin-top: 2rem;
   width: 100%;
@@ -67,27 +121,7 @@ h1 {
   color: #666;
 }
 
-.nav-links {
-  margin: 1.5rem 0;
-}
-
-.nav-links a {
-  color: white;
-  background: #E31937;
-  text-decoration: none;
-  font-size: 1.1rem;
-  padding: 0.5rem 1.5rem;
-  border: 2px solid #E31937;
-  border-radius: 8px;
-  transition: all 0.2s ease;
-}
-
-.nav-links a:hover {
-  background: #FFD100;
-  border-color: #FFD100;
-  color: #213547;
-}
-
+/* Contact */
 .contact-info {
   text-align: center;
   margin: 2rem 0;
@@ -108,4 +142,70 @@ h1 {
   padding: 0.5rem;
   font-size: 1rem;
   color: #E31937;
+}
+
+/* Products */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 900px;
+  padding: 1rem;
+}
+
+.product-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.product-image {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.product-card h3 {
+  font-size: 1.1rem;
+  color: #213547;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #E31937;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .menu {
+    gap: 0.5rem;
+  }
+
+  .menu-link {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .product-image {
+    font-size: 3rem;
+  }
 }

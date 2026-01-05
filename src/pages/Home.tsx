@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom'
-
 const projectFiles = [
   { name: 'src/App.tsx', description: 'Hoofd React component' },
   { name: 'src/App.css', description: 'Styling voor App component' },
@@ -20,10 +18,6 @@ function Home() {
         className="wave-image"
       />
       <h1>Hello World</h1>
-
-      <nav className="nav-links">
-        <Link to="/contact">Contact</Link>
-      </nav>
 
       <div className="files-section">
         <h2>Projectbestanden</h2>

@@ -45,3 +45,19 @@ Alle goedgekeurde voorstellen en hun implementatie status.
 - [x] src/index.css updaten
 - [x] Commit naar GitHub
 - [x] Deploy naar Vercel
+
+---
+
+### 2026-01-05 - Navigatiemenu met Producten pagina (Voorstel A)
+**Oorspronkelijk idee:** docs/ideeen.md#2026-01-05---navigatiemenu-met-producten-pagina
+**Status:** In ontwikkeling
+
+**Wijzigingen:**
+- [x] src/components/Menu.tsx aanmaken
+- [x] src/pages/Products.tsx aanmaken
+- [x] src/App.tsx updaten met layout en route
+- [x] src/App.css updaten met menu styling
+- [x] src/pages/Home.tsx updaten (losse link verwijderen)
+- [x] src/pages/Contact.tsx updaten (losse link verwijderen)
+- [ ] Commit naar GitHub
+- [ ] Deploy naar Vercel

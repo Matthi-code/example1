@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom'
-
 function Contact() {
   return (
     <div className="container">
@@ -12,10 +10,6 @@ function Contact() {
           <li>Telefoon: +31 6 12345678</li>
         </ul>
       </div>
-
-      <nav className="nav-links">
-        <Link to="/">Terug naar Home</Link>
-      </nav>
     </div>
   )
 }
