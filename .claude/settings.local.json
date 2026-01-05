@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(source ~/.nvm/nvm.sh)",
+      "Bash(nvm:*)",
+      "Bash(brew:*)",
+      "Bash(curl:*)",
+      "Bash(bash)"
+    ]
+  }
+}
