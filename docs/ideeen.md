@@ -134,3 +134,40 @@ Welk voorstel heeft je voorkeur?
 - [ ] Aanpassen (geef feedback)
 
 **Besluit:** Voorstel A goedgekeurd op 2026-01-05 → Verplaatst naar wijzigingen.md
+
+---
+
+### 2026-01-05 - Contactformulier met email functie
+**Status:** Goedgekeurd (Voorstel A)
+
+**Beschrijving:**
+Een invulformulier toevoegen aan de contactpagina met validaties en een verzendknop die een email stuurt naar matthi.goossens@gmail.com.
+
+**Analyse:**
+- Formuliervelden: Naam, Email, Bericht
+- Validaties: Verplichte velden, email formaat, minimale berichtlengte
+- Email verzending: Vereist backend service (client-side kan geen emails versturen)
+
+**Voorstel A (Aanbevolen):**
+Formulier met EmailJS (geen backend nodig):
+- EmailJS service integreren (gratis tier: 200 emails/maand)
+- Client-side email verzending
+- Formulier validatie met React state
+- Success/error feedback aan gebruiker
+- Snel te implementeren, geen server nodig
+
+**Voorstel B (Alternatief):**
+Formulier met Formspree:
+- Formspree.io integreren (gratis tier: 50 submissions/maand)
+- Simpeler setup (alleen form action URL)
+- Minder controle over styling van feedback
+- Redirect na verzending
+
+**Vraag:**
+Welk voorstel heeft je voorkeur?
+- [x] Voorstel A - EmailJS (Aanbevolen, meer controle)
+- [ ] Voorstel B - Formspree (Simpeler, minder emails)
+- [ ] Afgewezen
+- [ ] Aanpassen (geef feedback)
+
+**Besluit:** Voorstel A goedgekeurd op 2026-01-05 → Verplaatst naar wijzigingen.md

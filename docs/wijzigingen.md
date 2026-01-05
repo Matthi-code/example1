@@ -50,7 +50,7 @@ Alle goedgekeurde voorstellen en hun implementatie status.
 
 ### 2026-01-05 - Navigatiemenu met Producten pagina (Voorstel A)
 **Oorspronkelijk idee:** docs/ideeen.md#2026-01-05---navigatiemenu-met-producten-pagina
-**Status:** In ontwikkeling
+**Status:** Voltooid
 
 **Wijzigingen:**
 - [x] src/components/Menu.tsx aanmaken
@@ -59,5 +59,19 @@ Alle goedgekeurde voorstellen en hun implementatie status.
 - [x] src/App.css updaten met menu styling
 - [x] src/pages/Home.tsx updaten (losse link verwijderen)
 - [x] src/pages/Contact.tsx updaten (losse link verwijderen)
+- [x] Commit naar GitHub
+- [x] Deploy naar Vercel
+
+---
+
+### 2026-01-05 - Contactformulier met EmailJS (Voorstel A)
+**Oorspronkelijk idee:** docs/ideeen.md#2026-01-05---contactformulier-met-email-functie
+**Status:** In ontwikkeling
+
+**Wijzigingen:**
+- [x] @emailjs/browser installeren
+- [x] src/pages/Contact.tsx updaten met formulier en validatie
+- [x] src/App.css updaten met formulier styling
+- [ ] EmailJS configureren (service, template, public key) - ACTIE NODIG
 - [ ] Commit naar GitHub
 - [ ] Deploy naar Vercel
