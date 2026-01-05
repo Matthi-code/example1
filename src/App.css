@@ -66,3 +66,44 @@ h1 {
   font-size: 0.85rem;
   color: #888;
 }
+
+.nav-links {
+  margin: 1.5rem 0;
+}
+
+.nav-links a {
+  color: #646cff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 0.5rem 1.5rem;
+  border: 2px solid #646cff;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.nav-links a:hover {
+  background: #646cff;
+  color: white;
+}
+
+.contact-info {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.contact-info p {
+  font-size: 1.2rem;
+  color: #888;
+  margin-bottom: 1rem;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li {
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: #646cff;
+}
