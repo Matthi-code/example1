@@ -22,7 +22,7 @@ Alle goedgekeurde voorstellen en hun implementatie status.
 
 ### 2026-01-05 - Contact pagina
 **Oorspronkelijk idee:** docs/ideeen.md#2026-01-05---contact-pagina
-**Status:** In ontwikkeling
+**Status:** Voltooid
 
 **Wijzigingen:**
 - [x] react-router-dom installeren
@@ -30,18 +30,18 @@ Alle goedgekeurde voorstellen en hun implementatie status.
 - [x] src/pages/Contact.tsx aanmaken
 - [x] src/App.tsx updaten met routing
 - [x] src/App.css updaten met link styling
-- [ ] Commit naar GitHub
-- [ ] Deploy naar Vercel
+- [x] Commit naar GitHub
+- [x] Deploy naar Vercel
 
 ---
 
 ### 2026-01-05 - Intertoys Look & Feel (Voorstel B)
 **Oorspronkelijk idee:** docs/ideeen.md#2026-01-05---intertoys-look--feel
-**Status:** In ontwikkeling
+**Status:** Voltooid
 
 **Wijzigingen:**
 - [x] Kleuren aanpassen naar rood (#E31937) / geel (#FFD100) thema
 - [x] src/App.css updaten
 - [x] src/index.css updaten
-- [ ] Commit naar GitHub
-- [ ] Deploy naar Vercel
+- [x] Commit naar GitHub
+- [x] Deploy naar Vercel
