@@ -2,6 +2,8 @@
 
 Alle nieuwe ideeën worden hier verzameld.
 
+> **Workflow:** Bij elk idee wordt altijd een voorstel gemaakt + eventueel een alternatief.
+
 ---
 
 ## Template
@@ -49,3 +51,44 @@ Goedkeuren om te implementeren en deployen naar GitHub/Vercel?
 - [ ] Aanpassen (geef feedback)
 
 **Besluit:** Goedgekeurd op 2026-01-05 → Verplaatst naar wijzigingen.md
+
+---
+
+### 2026-01-05 - Intertoys Look & Feel
+**Status:** Goedgekeurd (Voorstel B)
+
+**Beschrijving:**
+De stylesheet aanpassen zodat de app lijkt op de Intertoys website stijl.
+
+**Analyse:**
+Intertoys kenmerken (speelgoedwinkel):
+- Hoofdkleuren: Rood (#E31937), Geel (#FFD100), Wit
+- Speelse, kindvriendelijke uitstraling
+- Ronde hoeken op buttons en cards
+- Grote, duidelijke fonts
+- Vrolijke, uitnodigende sfeer
+
+**Voorstel A (Aanbevolen):**
+Volledige Intertoys-stijl toepassen:
+- Rood als primaire kleur (#E31937)
+- Geel als accent kleur (#FFD100)
+- Witte achtergrond
+- Ronde buttons met rode achtergrond
+- Speels font (bijv. Nunito of Poppins)
+- Grote hover effecten
+
+**Voorstel B (Alternatief):**
+Subtiele Intertoys-inspiratie:
+- Huidige layout behouden
+- Alleen kleuren aanpassen naar rood/geel thema
+- Minimale font wijzigingen
+- Minder ingrijpend, sneller te implementeren
+
+**Vraag:**
+Welk voorstel heeft je voorkeur?
+- [ ] Voorstel A - Volledige Intertoys-stijl
+- [x] Voorstel B - Subtiele kleur aanpassing
+- [ ] Afgewezen
+- [ ] Aanpassen (geef feedback)
+
+**Besluit:** Voorstel B goedgekeurd op 2026-01-05 → Verplaatst naar wijzigingen.md

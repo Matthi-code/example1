@@ -22,7 +22,7 @@
 
 h1 {
   font-size: 3rem;
-  color: #646cff;
+  color: #E31937;
   margin-bottom: 2rem;
 }
 
@@ -34,7 +34,7 @@ h1 {
 
 .files-section h2 {
   font-size: 1.5rem;
-  color: #888;
+  color: #666;
   margin-bottom: 1rem;
   text-align: center;
 }
@@ -52,19 +52,19 @@ h1 {
   padding: 0.75rem 1rem;
   border-radius: 8px;
   margin-bottom: 0.5rem;
-  background: rgba(100, 108, 255, 0.1);
+  background: rgba(227, 25, 55, 0.1);
 }
 
 .file-item code {
   font-family: monospace;
   font-size: 0.9rem;
-  color: #646cff;
+  color: #E31937;
   font-weight: 600;
 }
 
 .file-item span {
   font-size: 0.85rem;
-  color: #888;
+  color: #666;
 }
 
 .nav-links {
@@ -72,18 +72,20 @@ h1 {
 }
 
 .nav-links a {
-  color: #646cff;
+  color: white;
+  background: #E31937;
   text-decoration: none;
   font-size: 1.1rem;
   padding: 0.5rem 1.5rem;
-  border: 2px solid #646cff;
+  border: 2px solid #E31937;
   border-radius: 8px;
   transition: all 0.2s ease;
 }
 
 .nav-links a:hover {
-  background: #646cff;
-  color: white;
+  background: #FFD100;
+  border-color: #FFD100;
+  color: #213547;
 }
 
 .contact-info {
@@ -93,7 +95,7 @@ h1 {
 
 .contact-info p {
   font-size: 1.2rem;
-  color: #888;
+  color: #666;
   margin-bottom: 1rem;
 }
 
@@ -105,5 +107,5 @@ h1 {
 .contact-list li {
   padding: 0.5rem;
   font-size: 1rem;
-  color: #646cff;
+  color: #E31937;
 }
