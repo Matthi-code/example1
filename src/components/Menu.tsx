@@ -16,6 +16,9 @@ function Menu() {
         <NavLink to="/contact" className={({ isActive }) => isActive ? 'menu-link active' : 'menu-link'}>
           Contact
         </NavLink>
+        <NavLink to="/aex" className={({ isActive }) => isActive ? 'menu-link active' : 'menu-link'}>
+          AEX
+        </NavLink>
         <NavLink to="/winkelwagen" className={({ isActive }) => `menu-link cart-link ${isActive ? 'active' : ''}`}>
           🛒
           {totalItems > 0 && <span className="cart-badge">{totalItems}</span>}

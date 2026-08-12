@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Products from './pages/Products'
 import Contact from './pages/Contact'
 import Cart from './pages/Cart'
+import Aex from './pages/Aex'
 import './App.css'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Route path="/producten" element={<Products />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/winkelwagen" element={<Cart />} />
+            <Route path="/aex" element={<Aex />} />
           </Routes>
         </main>
       </CartProvider>
